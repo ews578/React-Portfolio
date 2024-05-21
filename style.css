@@ -1,0 +1,9 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-right: auto; /* This will push the h2 to the left */
+    margin-bottom: 0; /* Remove any bottom margin */
+  }

@@ -1,7 +1,7 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="nav-container">
-      <h2>Eric Snider</h2>
+      <h2>Eric Snider's Portfolio</h2>
       <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
           <a

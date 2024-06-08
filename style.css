@@ -32,7 +32,7 @@ h2 {
 }
 
 #reach-out h2 {
-  color: #0E5259;
+  color: #454c56;
 }
 
 .contact h2 {
@@ -79,8 +79,8 @@ h2 {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #F2E3D5;
-  color: #024e76;
+  background: #2975de;
+  color: #ffffff;
   text-align: center;
   padding: 15px 0;
   font-size: 25px;
@@ -135,4 +135,143 @@ h2 {
 .contact-info a:hover {
   color: #ACF2E5;
   transition: .5s ease;
+}
+
+.download-intro p {
+  line-height: 1.7;
+  color: #0E5259;
+  width: 95%;
+  font-size: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.resume-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.resume-body>* {
+  flex: 1;
+  margin: 150px;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 0 0 60px;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+
+
+.article {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #B4D9CB;
+}
+
+
+.resume-body img {
+
+  height: auto;
+}
+
+.download-text {
+  height: auto;
+  /* margin-left: 20%; */
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.download-logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #0E5259;
+  display: inline-block;
+}
+
+.download-logo:hover {
+  color: #328C83;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+
+
+.download-info {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+
+.column-title {
+  color: #285950;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #285950;
+  font-size: 20px;
+  padding: 5px;
+
+
+}
+
+.column-text ul li {
+  list-style: none;
+}
+
+.section-title {
+  text-align: center;
+}
+.intro p {
+  line-height: 1.7;
+  color: #0E5259;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.intro-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.intro-img img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 5px;
+}
+
+.intro-text {
+  flex: 12;
+}
+
+.intro-text p {
+  color: #328C83;
+  font-size: 18px;
 }

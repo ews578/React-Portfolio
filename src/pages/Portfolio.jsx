@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import "/style.css" 
 function Project() {
   const projects = [
     {
@@ -18,14 +18,15 @@ function Project() {
     },
     {
       title: 'Note Taker',
-      description: 'Description of project 3. This app uses an Express.js back end and will save and retrieve note data from a JSON file. Using this will allow you to create and delete notes at your own discretion.',
+      description: 'This app uses an Express.js back end and will save and retrieve note data from a JSON file. Using this will allow you to create and delete notes at your own discretion.',
       imageUrl: 'https://github.com/ews578/Note-Pad/raw/main/public/assets/Screenshot%20(16).png',
       link: ''
     },
     {
-      title: 'Project 4',
-      description: 'Description of project 4',
-      imageUrl: 'IMAGE_URL_FOR_PROJECT_4'
+      title: 'Weather App',
+      description: 'This application will be used as a way for the user to input a specific location and receive a 5-day forecast for the given area.',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWly6KIph33IQ0qzwzEmqgY-Fu4wNBKJ7jw&s',
+      link: 'https://ews578.github.io/weather-dashboard/'
     }
   ];
 
@@ -33,11 +34,11 @@ function Project() {
     <Row xs={1} md={2} className="g-4">
       {projects.map((project, idx) => (
         <Col md={3} key={idx}>
-          <Card>
+          <Card className="custom-card"> {/* Apply the custom-card class */}
             <a target="_blank" href={project.link}>
               <Card.Img variant="top" src={project.imageUrl} />
             </a>
-            <Card.Body className="card-body-fixed-height"> {/* Apply the fixed height class */}
+            <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>
                 {project.description}

@@ -1,19 +1,91 @@
-export default function Resume() {
+import React from "react";
+// import myResume from 
+import { BsCloudDownload } from "react-icons/bs";
+import { MdFoundation } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
+import { GrDocumentPerformance } from "react-icons/gr";
+
+function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <section id="welcome-section" className="download-intro">
+        <div className="flex-row">
+          <h2 className="section-title primary-border">My Resume</h2>
+        </div>
+        <div className="flex-row">
+          <div className="download-info">
+            <div className="download-text">
+              {/* <a href={myResume} className="download-logo" download>
+                <BsCloudDownload />
+              </a> */}
+              <p>
+                Please feel free to check out my list of Developer
+                Proficiencies!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* // This is the resume language */}
+      <section id="home-page-body" className="resume-body">
+        <div className="article column1">
+          <p className="column-title">Font-End Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <MdFoundation />
+              </li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>APIs</li>
+              <li>Bootstrap</li>
+              <li>GIT</li>
+            </ul>
+          </p>
+        </div>
+
+        <div className="article column2">
+          {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48x48.PNG"></p> */}
+
+          <p className="column-title">Back-End Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <GrTechnology />
+              </li>
+              <li>Node.Js</li>
+              <li>Jest</li>
+              <li>Express.js</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>Object-Relational Mapping(ORM)</li>
+              <li>Model-View-Controller (MVC)</li>
+            </ul>
+          </p>
+        </div>
+        <div className="article column3">
+          {/* <p><img src="./assets/images/streamline-icon-soft-drinks-glass-ice@48x48.PNG"></p> */}
+          <p className="column-title">Performance Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <GrDocumentPerformance />
+              </li>
+              <li>NoSQL</li>
+              <li>Progressive Web Applications (PWA)</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>GraphQL</li>
+              <li>React</li>
+              <li>MERN</li>
+              <li>State</li>
+            </ul>
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
+
+export default Resume;

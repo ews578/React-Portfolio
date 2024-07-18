@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import "/style.css" 
+import '/style.css' 
 function Project() {
   const projects = [
     {
@@ -34,7 +34,7 @@ function Project() {
     <Row xs={1} md={2} className="g-4">
       {projects.map((project, idx) => (
         <Col md={3} key={idx}>
-          <Card className="custom-card"> {/* Apply the custom-card class */}
+          <Card className="custom-card">
             <a target="_blank" href={project.link}>
               <Card.Img variant="top" src={project.imageUrl} />
             </a>

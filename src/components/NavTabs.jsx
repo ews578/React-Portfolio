@@ -1,6 +1,8 @@
+import React from 'react';
+import '/style.css'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="nav-container">
+    <div className="nav-container" style={{ background: '#244c5e', color: '#ffffff', padding: '10px' }}>
       <h2>Eric Snider's Portfolio</h2>
       <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
@@ -8,6 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#Portfolio"
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            style={{ color: '#244c5e', textDecoration: 'none', padding: '5px 10px', marginRight: '10px', borderRadius: '5px', backgroundColor: '#ffffff' }}
           >
             Portfolio
           </a>
@@ -17,6 +20,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#About Me"
             onClick={() => handlePageChange('AboutMe')}
             className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+            style={{ color: '#244c5e', textDecoration: 'none', padding: '5px 10px', marginRight: '10px', borderRadius: '5px', backgroundColor: '#ffffff' }}
           >
             About Me
           </a>
@@ -26,6 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#Resume"
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            style={{ color: '#244c5e', textDecoration: 'none', padding: '5px 10px', marginRight: '10px', borderRadius: '5px', backgroundColor: '#ffffff' }}
           >
             Resume
           </a>
@@ -35,6 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#contact"
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            style={{ color: '#244c5e', textDecoration: 'none', padding: '5px 10px', marginRight: '10px', borderRadius: '5px', backgroundColor: '#ffffff' }}
           >
             Contact
           </a>

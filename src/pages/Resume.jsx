@@ -10,7 +10,7 @@ function Resume() {
     <div>
       <section id="welcome-section" className="download-intro">
         <div className="flex-row">
-          <h2 className="section-title primary-border">My Resume</h2>
+          <h2 className="section-title primary-border"style={{ color: "#244c5e" }}>My Resume</h2>
         </div>
         <div className="flex-row">
           <div className="download-info">

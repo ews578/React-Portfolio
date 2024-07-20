@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import '/style.css' 
+
 function Project() {
   const projects = [
     {
@@ -12,7 +12,7 @@ function Project() {
     },
     {
       title: 'Work Day Scheduler',
-      description: ' A functioning work day scheduler that allows the user to save events for each hour of a typical working day. It features dynamically updated HTML and CSS powered by JavaScript and jQuery, and Dayjs library.',
+      description: 'A functioning work day scheduler that allows the user to save events for each hour of a typical working day. It features dynamically updated HTML and CSS powered by JavaScript and jQuery, and Dayjs library.',
       imageUrl: 'https://github.com/ews578/work-day-scheduler/raw/main/assets/Screenshot%20(7).png',
       link: ''
     },
@@ -29,25 +29,30 @@ function Project() {
       link: 'https://ews578.github.io/weather-dashboard/'
     }
   ];
-
   return (
-    <Row xs={1} md={2} className="g-4">
-      {projects.map((project, idx) => (
-        <Col md={3} key={idx}>
-          <Card className="custom-card">
-            <a target="_blank" href={project.link}>
-              <Card.Img variant="top" src={project.imageUrl} />
-            </a>
-            <Card.Body>
-              <Card.Title>{project.title}</Card.Title>
-              <Card.Text>
-                {project.description}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div className="project-container" style={{ marginTop: '20px' }}>
+      <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#244c5e' }}>My Projects</h1>
+      <p style={{ textAlign: 'center', color: '#244c5e', fontFamily: 'Arial, sans-serif', fontSize: '20px', marginBottom: '20px' }}>
+        Here are a few examples of the projects I completed with my time in the program. Use the contact form and let me know any feedback you may have.
+      </p>
+      <Row xs={1} md={2} className="g-4">
+        {projects.map((project, idx) => (
+          <Col md={3} key={idx} style={{ height: '400px' }}>
+            <Card className="custom-card" style={{ height: '100%' }}>
+              <a target="_blank" href={project.link}>
+                <Card.Img variant="top" src={project.imageUrl} />
+              </a>
+              <Card.Body>
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Text>
+                  {project.description}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 }
 

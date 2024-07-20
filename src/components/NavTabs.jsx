@@ -1,9 +1,10 @@
 import React from 'react';
 import '/style.css'
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="nav-container" style={{ background: '#244c5e', color: '#ffffff', padding: '10px' }}>
-      <h2>Eric Snider's Portfolio</h2>
+      <h2>Eric Snider</h2>
       <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
           <a

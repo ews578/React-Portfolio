@@ -4,7 +4,11 @@ function Aboutme() {
   return (
     <section id="about-me" className="my-5 intro">
       <div class="flex-row">
-        <h1 id="about" className="section-title primary-border" style={{ color: "#244c5e" }}>
+        <h1
+          id="about"
+          className="section-title primary-border"
+          style={{ color: "#244c5e" }}
+        >
           About Me
         </h1>
       </div>
@@ -18,27 +22,20 @@ function Aboutme() {
             />
           </div>
           <p>
-            Hey there! I'm Eric Snider, a 36-year-old in the midst of an
-            exciting career transition from heating and cooling to the dynamic
-            world of web development. My journey into coding was sparked by a
-            passion for technology and a drive to create innovative digital
-            solutions. Beyond coding, my greatest joys revolve around spending
-            quality time with my family. Whether we're exploring new places
-            together or simply enjoying a quiet evening at home, their love and
-            support are the foundation of everything I do. When I'm not coding
-            or with my family, you can often find me at the gym, where I enjoy
-            weightlifting as a way to stay fit and focused. Another passion of
-            mine is snowboarding—there's nothing quite like carving through
-            fresh powder and taking in the stunning mountain views. As a proud
-            member of the Chiefs Kingdom, I'm passionate about football and love
-            cheering on my team during the season. Being part of such a
-            dedicated community adds an extra layer of excitement to my
-            weekends. Transitioning careers has been an invigorating challenge,
-            blending my problem-solving skills with creativity in new ways. I'm
-            eager to bring my enthusiasm for learning and growth to the field of
-            web development, creating user-friendly experiences that make a
-            difference. Let's connect and share stories about tech, sports, or
-            anything that sparks our curiosity!
+            I am a dedicated junior web developer with a robust foundation in
+            full stack web development, acquired through intensive training at
+            KU Bootcamp. My passion for programming stems from a natural
+            aptitude for problem-solving and a deep interest in troubleshooting
+            technical challenges. Through hands-on projects and comprehensive
+            coursework, I have sharpened my skills in both frontend and backend
+            JavaScript development.<br></br>
+            <br></br>I am enthusiastic about utilizing my programming abilities
+            to craft efficient and intuitive web applications. I am eager to
+            join a team where I can contribute my creativity and technical
+            expertise while continuing to broaden my knowledge. I am
+            particularly attracted to roles that offer opportunities to explore
+            new technologies and methodologies, fostering continuous growth in
+            my development career.
           </p>
         </div>
       </div>

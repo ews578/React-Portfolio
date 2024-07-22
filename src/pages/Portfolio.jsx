@@ -27,10 +27,34 @@ function Project() {
       description: 'This application will be used as a way for the user to input a specific location and receive a 5-day forecast for the given area.',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWly6KIph33IQ0qzwzEmqgY-Fu4wNBKJ7jw&s',
       link: 'https://ews578.github.io/weather-dashboard/'
+    },
+    {
+      title: 'J.A.T.E',
+      descirption: 'Just Another Text Editor- or JATE for short. Simply add the text you want to save to your editor.',
+      imageUrl: './assets/JATE.png',
+      link: 'https://enigmatic-forest-36433-7572537927de.herokuapp.com/'
+    },
+    {
+      title: 'E-Commerce',
+      description:'A back end application that allows store managers to create, update and delete categories, products, and tags for their inventory while using Insomina.',
+      imageUrl:'./assets/ecommerce.png',
+      link: 'https://drive.google.com/file/d/1sb0X2bEQox-W6dwLFFIYFDwKCSafm80J/view'
+    },
+    {
+      title: 'Tech Blog',
+      description:'A Tech-Blog where users can sign up to create blog post. The user can sign in and delete existing blog post or comment on current blogs.',
+      imageUrl:'./assets/techblog.png',
+      link: 'https://desolate-lowlands-29937-fc34c8976432.herokuapp.com/'
+    },
+    {
+      title: 'Social Network API',
+      description:'An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list',
+      imageUrl:'https://github.com/ews578/Social-Network-API/raw/main/assets/Screenshot%20(26).png',
+      link: 'https://drive.google.com/file/d/15PjriAbTIcQQFNsNT6ts9ySs3kmq8qau/view'
     }
   ];
   return (
-    <div className="project-container" style={{ marginTop: '20px' }}>
+    <div className="project-container" style={{ marginTop: '20px', paddingBottom: '20px', height: '500px', overflowY: 'scroll' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#244c5e' }}>My Projects</h1>
       <p style={{ textAlign: 'center', color: '#244c5e', fontFamily: 'Arial, sans-serif', fontSize: '20px', marginBottom: '20px' }}>
         Here are a few examples of the projects I completed with my time in the program. Use the contact form to let me know any feedback you may have.

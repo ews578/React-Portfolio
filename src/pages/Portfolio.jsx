@@ -33,7 +33,7 @@ function Project() {
     <div className="project-container" style={{ marginTop: '20px' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#244c5e' }}>My Projects</h1>
       <p style={{ textAlign: 'center', color: '#244c5e', fontFamily: 'Arial, sans-serif', fontSize: '20px', marginBottom: '20px' }}>
-        Here are a few examples of the projects I completed with my time in the program. Use the contact form and let me know any feedback you may have.
+        Here are a few examples of the projects I completed with my time in the program. Use the contact form to let me know any feedback you may have.
       </p>
       <Row xs={1} md={2} className="g-4">
         {projects.map((project, idx) => (

@@ -1,5 +1,5 @@
 import React from "react";
-// import myResume from 
+import myResume from '/assets/Resume.pdf'
 import { BsCloudDownload } from "react-icons/bs";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
@@ -15,9 +15,9 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              {/* <a href={myResume} className="download-logo" download>
+              <a href={myResume} className="download-logo" download>
                 <BsCloudDownload />
-              </a> */}
+              </a>
               <p>
                 Please feel free to check out my list of Developer
                 Proficiencies!

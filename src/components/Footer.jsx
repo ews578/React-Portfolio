@@ -1,7 +1,7 @@
 import React from "react";
 import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -19,11 +19,11 @@ function Footer() {
               <AiOutlineLinkedin />
             </li>
           </a>
-          <a href="https://www.instagram.com/">
+          {/* <a href="https://www.instagram.com/">
             <li className="logo">
               <FaInstagram />
             </li>
-          </a>
+          </a> */}
         </ul>
       </p>
     </footer>

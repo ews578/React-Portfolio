@@ -17,7 +17,7 @@ function Project() {
       imageUrl: 'https://github.com/ews578/work-day-scheduler/raw/main/assets/Screenshot%20(7).png',
       link: 'https://ews578.github.io/work-day-scheduler/'
     },
-    // Update the image URLs for the following projects
+    
     {
       title: 'Note Taker',
       description: 'This app uses an Express.js back end and will save and retrieve note data from a JSON file. Using this will allow you to create and delete notes at your own discretion.',
@@ -30,23 +30,23 @@ function Project() {
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWly6KIph33IQ0qzwzEmqgY-Fu4wNBKJ7jw&s',
       link: 'https://ews578.github.io/weather-dashboard/'
     },
-    // Update the image URLs for the following projects
+    
     {
       title: 'J.A.T.E',
       description: 'Just Another Text Editor. This application takes an existing text editor app and adds functionality for it to work as a PWA and function offline. This application is deployed through Heroku.',
-      imageUrl: '/assets/JATE.png',
+      imageUrl: 'https://github.com/ews578/Text-Editor/raw/main/assets/JATE.png',
       link: 'https://enigmatic-forest-36433-7572537927de.herokuapp.com/'
     },
     {
       title: 'E-Commerce',
       description: 'A back end application that allows store managers to create, update and delete categories, products, and tags for their inventory while using Insomnia.',
-      imageUrl: '/assets/ecommerce.png',
+      imageUrl: 'https://github.com/ews578/E-Commerce/raw/main/Develop/assets/ecommerce.png',
       link: 'https://drive.google.com/file/d/1sb0X2bEQox-W6dwLFFIYFDwKCSafm80J/view'
     },
     {
       title: 'Tech Blog',
       description: 'A Tech-Blog where users can sign up to create blog posts. The user can sign in and delete existing blog posts or comment on current blogs.',
-      imageUrl: '/assets/techblog.png',
+      imageUrl: 'https://github.com/ews578/Tech-Blog/raw/main/public/techblog.png',
       link: 'https://desolate-lowlands-29937-fc34c8976432.herokuapp.com/'
     },
     {

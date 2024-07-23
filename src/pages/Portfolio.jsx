@@ -34,19 +34,19 @@ function Project() {
     {
       title: 'J.A.T.E',
       description: 'Just Another Text Editor. This application takes an existing text editor app and adds functionality for it to work as a PWA and function offline. This application is deployed through Heroku.',
-      imageUrl: './assets/JATE.png',
+      imageUrl: '/assets/JATE.png',
       link: 'https://enigmatic-forest-36433-7572537927de.herokuapp.com/'
     },
     {
       title: 'E-Commerce',
       description: 'A back end application that allows store managers to create, update and delete categories, products, and tags for their inventory while using Insomnia.',
-      imageUrl: './assets/ecommerce.png',
+      imageUrl: '/assets/ecommerce.png',
       link: 'https://drive.google.com/file/d/1sb0X2bEQox-W6dwLFFIYFDwKCSafm80J/view'
     },
     {
       title: 'Tech Blog',
       description: 'A Tech-Blog where users can sign up to create blog posts. The user can sign in and delete existing blog posts or comment on current blogs.',
-      imageUrl: './assets/techblog.png',
+      imageUrl: '/assets/techblog.png',
       link: 'https://desolate-lowlands-29937-fc34c8976432.herokuapp.com/'
     },
     {

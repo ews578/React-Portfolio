@@ -1,9 +1,10 @@
 import React from "react";
+import profilePicture from "/assets/profilePicture.png";
 
 function Aboutme() {
   return (
     <section id="about-me" className="my-5 intro">
-      <div class="flex-row">
+      <div className="flex-row">
         <h1
           id="about"
           className="section-title primary-border"
@@ -13,10 +14,10 @@ function Aboutme() {
         </h1>
       </div>
       <div className="flex-row">
-        <div class="intro-info">
-          <div class="intro-img">
+        <div className="intro-info">
+          <div className="intro-img">
             <img
-              src="assets/profilePicture.png"
+              src={profilePicture}
               style={{ width: "100%" }}
               alt="profile"
             />
